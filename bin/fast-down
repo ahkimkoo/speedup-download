@@ -25,5 +25,5 @@ if (process.argv.length > 3) {
         console.log('download ' + (ret ? 'success' : 'fail') + ', cost: ' + (new Date().getTime() - stime) + 'ms');
     })();
 } else {
-    console.log('Usage: speedup-download <lilnk> <filepath> [concurrency]');
+    console.log('Usage: fast-down <lilnk> <filepath> [concurrency]');
 }

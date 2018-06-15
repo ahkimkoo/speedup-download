@@ -1,13 +1,13 @@
 {
-  "name": "speedup-download",
+  "name": "fast-down",
   "version": "1.0.0",
-  "description": "speedup-download, multiple connection(process)",
+  "description": "fast-down, multiple connection(process)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "speedup-download": "bin/speedup-download"
+    "fast-down": "bin/fast-down"
   },
   "repository": {
     "type": "git",
