@@ -1,0 +1,32 @@
+{
+  "name": "speedup-download",
+  "version": "1.0.0",
+  "description": "speedup-download, multiple connection(process)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "speedup-download": "bin/speedup-download"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahkimkoo/speedup-download.git"
+  },
+  "keywords": [
+    "speedup",
+    "download",
+    "multipart",
+    "download"
+  ],
+  "author": "Cherokee",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/ahkimkoo/speedup-download/issues"
+  },
+  "homepage": "https://github.com/ahkimkoo/speedup-download#readme",
+  "dependencies": {
+    "request": "^2.87.0",
+    "request-progress": "^3.0.0"
+  }
+}
